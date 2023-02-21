@@ -1,8 +1,11 @@
-var audio = document.getElementById("myAudio");
-audio.volume = 0.5; // set the volume to 50%
+var audio = document.getElementById("paul");
+var shepard = document.getElementById("shepard")
+audio.volume = 1; // set the volume to 50%
+shepard.volume = .25;
 
 function playAudio() {
     audio.play();
+    shepard.play()
 }
 
 document.addEventListener("click", function () {
